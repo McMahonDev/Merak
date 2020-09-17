@@ -60,6 +60,14 @@ body{
             grid-column: 2;
             grid-row: 4;
         }
+        div{
+            h3{
+                font-family: 'food';
+            }
+            p{
+                font-family: 'description';
+            }
+        }
     }
     footer{
         position: fixed;
