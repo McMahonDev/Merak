@@ -83,17 +83,75 @@ body{
         background-position: 0% 100%;
         background-repeat: no-repeat;
         background-size: 100%;
-        @media screen and (min-height: 812px) {
+        
+        @media screen and (min-height: 500px) and (min-width: 500px){
+            background-position: 0% 0%;
+        }
+        @media screen and (min-height: 500px) and (min-width: 900px){
             background-position: 0% 50%;
         }
-        @media screen and (max-height: 812px) and (min-width: 1200px){
+        @media screen and (min-height: 500px) and (min-width: 1200px){
             background-position: 0% 60%;
         }
-        @media screen and (max-height: 812px) and (max-width: 400px){
+        @media screen and (min-height: 500px) and (min-width: 1500px){
+            background-position: 0% 70%;
+        }
+
+
+        @media screen and (min-height: 812px) and (min-width: 500px){
             background-position: 0% 100%;
         }
-        @media screen and (max-height: 812px) and (min-width: 700px){
-            background-position: 0% 60%;
+        @media screen and (min-height: 812px) and (min-width: 900px){
+            background-position: 0% 40%;
         }
+        @media screen and (min-height: 812px) and (min-width: 1200px){
+            background-position: 0% 55%;
+        }
+        @media screen and (min-height: 812px) and (min-width: 1500px){
+            background-position: 0% 57%;
+        }
+
+
+        @media screen and (min-height: 1000px) and (min-width: 500px){
+            background-position: 0% 100%;
+        }
+        @media screen and (min-height: 1000px) and (min-width: 900px){
+            background-position: 0% 65%;
+        }
+        @media screen and (min-height: 1000px) and (min-width: 1200px){
+            background-position: 0% 65%;
+        }
+        @media screen and (min-height: 1000px) and (min-width: 1500px){
+            background-position: 0% 65%;
+        }
+
+
+        @media screen and (min-height: 1200px) and (min-width: 500px){
+            background-position: 0% 100%;
+        }
+        @media screen and (min-height: 1200px) and (min-width: 900px){
+            background-position: 0% 100%;
+        }
+        @media screen and (min-height: 1200px) and (min-width: 1200px){
+            background-position: 0% 85%;
+        }
+        @media screen and (min-height: 1200px) and (min-width: 1500px){
+            background-position: 0% 75%;
+        }
+
+
+        @media screen and (min-height: 1500px) and (min-width: 500px){
+            background-position: 0% 100%;
+        }
+        @media screen and (min-height: 1500px) and (min-width: 900px){
+            background-position: 0% 100%;
+        }
+        @media screen and (min-height: 1500px) and (min-width: 1200px){
+            background-position: 0% 100%;
+        }
+        @media screen and (min-height: 1500px) and (min-width: 1500px){
+            background-position: 0% 100%;
+        }
+        
     }
 }
