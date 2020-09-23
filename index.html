@@ -17,29 +17,41 @@
 
     <main>
       <!-- <h1>Menu Stuff</h1> -->
-      <div class="item-1">
-        <h3>Ginger Spritz</h3>
-        <p>Ginger.Lime.Soda</p>
+      <div  id="item-1" class="item-1">
+        <div class="item-inner">
+          <h3>Ginger Spritz</h3>
+          <p>Ginger.Lime.Soda</p>
+        </div>
       </div>
       <div class="item-2">
-        <h3>Scup</h3>
-        <p>Orange.Tarragon.Tuile</p>
+        <div class="item-inner">
+          <h3>Scup</h3>
+          <p>Orange.Tarragon.Tuile</p>
+        </div>
       </div>
       <div class="item-3">
-        <h3>Paella</h3>
-        <p>Quail.Scallop.Rice</p>
+        <div class="item-inner">
+          <h3>Paella</h3>
+          <p>Quail.Scallop.Rice</p>
+        </div>
       </div>
         <div class="item-4">
-          <h3>Vichysois</h3>
-          <p>Pastry.Leek.Onion</p>
+          <div class="item-inner"></div>
+            <h3>Vichysois</h3>
+            <p>Pastry.Leek.Onion</p>
+          </div>
         </div>
         <div class="item-5">
-          <h3>Sorbet</h3>
-          <p>Orange.Raspberry.Mint</p>
+          <div class="item-inner">
+            <h3>Sorbet</h3>
+            <p>Orange.Raspberry.Mint</p>
+          </div>
         </div>
         <div class="item-6">
-          <h3>Short Ribs</h3>
-          <p>Carrot.Turnip.Aparagus</p>
+          <div class="item-inner">
+            <h3>Short Ribs</h3>
+            <p>Carrot.Turnip.Aparagus</p>
+          </div>
         </div>
     </main>
 
@@ -50,6 +62,26 @@
 
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  
+
+  $(document).ready(function(){
+    $("#item-1").click(function(){
+      $(".item-1 .item-inner").toggleClass("item-container-hover");
+      $(".item-1").toggleClass("relative");
+      $(".item-2").toggleClass("opacity-low");
+      $(".item-3").toggleClass("opacity-low");
+      $(".item-4").toggleClass("opacity-low");
+      $(".item-5").toggleClass("opacity-low");
+      $(".item-6").toggleClass("opacity-low");
+    });
+  });
+
+
+
+</script>
 </body>
 </html>
 
