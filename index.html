@@ -8,6 +8,10 @@
     <title>Merak</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css?v=1.1">
+    <script src="https://kit.fontawesome.com/a74b683220.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    
+    
   </head>
 <body>
 
@@ -21,6 +25,7 @@
         <div class="item-inner">
           <h3>Ginger Spritz</h3>
           <p>Ginger.Lime.Soda</p>
+          
         </div>
       </div>
       <div class="item-2">
@@ -63,6 +68,7 @@
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/js/jquery.awesome-cursor.min.js"></script>
 
 <script>
   
@@ -78,6 +84,44 @@
       $(".item-6").toggleClass("opacity-low");
     });
   });
+
+
+
+</script>
+<script>
+
+// $(function() {
+//     var canvas = document.createElement("canvas");
+//     canvas.width = 24;
+//     canvas.height = 24;
+//     //document.body.appendChild(canvas);
+//     var ctx = canvas.getContext("2d");
+//     ctx.fillStyle = "#000000";
+//     ctx.font = "24px FontAwesome";
+//     ctx.textAlign = "center";
+//     ctx.textBaseline = "middle";
+//     ctx.fillText("\uf005", 12, 12);
+//     var dataURL = canvas.toDataURL('image/png')
+//     $('body').css('cursor', 'url('+dataURL+'), auto');
+// });
+
+$('body').awesomeCursor('star', {
+  color: 'black'
+});
+
+
+  $(document).ready(function(){
+    $(".item-1").hover(function(){
+      $('body').awesomeCursor('star', {
+    color: 'black'
+  }), function(){
+    $('body').awesomeCursor('star', {
+    color: 'blue'
+    });
+  };
+  
+  
+
 
 
 
