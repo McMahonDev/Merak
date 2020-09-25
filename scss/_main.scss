@@ -83,6 +83,10 @@ body{
                 text-decoration: underline;
                 font-size: 1.2rem !important;
                 padding-top: 10px;
+                @media screen and (max-width: 400px){
+                    font-size: .8rem;
+                    
+                }
                 
             }
         }
