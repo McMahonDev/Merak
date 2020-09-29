@@ -46,7 +46,7 @@
     box-shadow: 0px 0px 50px black;
     @media screen and (max-width: 400px){
         width: 90%;
-        height: 85%;
+        height: 62%;
     }
 }
 .show{
@@ -233,7 +233,10 @@ body{
        
         background-repeat: no-repeat;
         background-size: 100%;
-        
+        @media screen and (max-width: 400px){
+            background-position: 0% 100%;
+            background-image: url("../img/background3.png"); 
+        }
         @media screen and (min-height: 500px) and (min-width: 500px){
             background-image: none;
         }
