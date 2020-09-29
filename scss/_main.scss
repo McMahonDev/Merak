@@ -27,8 +27,12 @@
     }
 }
 .relative{
-    grid-column: 1/-1 !important;
-    grid-row: 1/20 !important;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
     background-color: rgba($color: #fff, $alpha: .75);
     position: relative;
     z-index: 1;
