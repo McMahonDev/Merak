@@ -25,57 +25,64 @@
         <div class="item-inner">
           <img class="show" src="img/test.jpg">
           <h3>Gougere</h3>
-          <p>Potato.Leek.Onion</p>
-          
+          <p class="para-1">Potato.Leek.Onion</p>
+          <p class="para-2 show">Puff pastry filled with a potato and leek purée, caramelized onion jam, and crispy leeks</p>
         </div>
       </div>
       <div id="item-2" class="item-2">
         <div class="item-inner">
           <img class="show" src="img/test.jpg">
           <h3>Crudo</h3>
-          <p>Bass.Citrus.Tuille</p>
+          <p class="para-3">Bass.Citrus.Tuille</p>
+          <p class="para-4 show">Black bass crudo with a blood orange fluid gel, cucumber water, tarragon coral tuille, and finger lime</p>
         </div>
       </div>
       <div id="item-3" class="item-3">
         <div class="item-inner">
           <img class="show" src="img/test.jpg">
           <h3>Bread Trio</h3>
-          <p>Quail.Scallop.Rice</p>
+          <p class="para-5">Quail.Scallop.Rice</p>
+          <p class="para-6 show">Spanish Pan Rustico, Semolina Seed Bread, Focaccia</p>
         </div>
       </div>
         <div id="item-4" class="item-4">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
             <h3>Pasta</h3>
-            <p>Calabaza.Ricotta.Soubise</p>
+            <p class="para-7">Calabaza.Ricotta.Soubise</p>
+            <p class="para-8 show">Pasta sheet with hearts on fire, calabaza pumpkin, housemade ricotta espuma, pepitas, and mushroom soubise cracker </p>
           </div>
         </div>
         <div id="item-5" class="item-5">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
             <h3>Sorbet</h3>
-            <p>Orange.Raspberry.Mint</p>
+            <p class="para-9">Orange.Raspberry.Mint</p>
+            <p class="para-10 show">Lemon and Thyme Sorbet inlayed with thyme and flower petals, accented with elderflower</p>
           </div>
         </div>
         <div id="item-6" class="item-6">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
             <h3>Paella</h3>
-            <p>Langoustine.Rabbit.Clam</p>
+            <p class="para-11">Langoustine.Rabbit.Clam</p>
+            <p class="para-12 show">Langoustine, rabbit, and clam with sofrito purée, pea purée, saffron rice, and soccarat tuille</p>
           </div>
         </div>
         <div id="item-7" class="item-7">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
             <h3>Cobbler</h3>
-            <p>Berries.Sponge.Vanilla</p>
+            <p class="para-13">Berries.Sponge.Vanilla</p>
+            <p class="para-14 show">Mixed Berry reduction with vanilla bean panacotta, shortbread, Meyer lemon, and mint </p>
           </div>
         </div>
         <div id="item-8" class="item-8">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
             <h3>Meet the chefs</h3>
-            <p>Name.Name.Name</p>
+            <p class="para-15">Name.Name.Name</p>
+            <p class="para-16 show">Placeholder</p>
           </div>
         </div>
     </main>
@@ -106,6 +113,8 @@
       $(".item-6").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-1").toggleClass("show");
+      $(".para-2").toggleClass("show");
     });
     $("#item-2").click(function(){
       $(".item-2 .item-inner").toggleClass("item-container-hover");
@@ -119,6 +128,8 @@
       $(".item-6").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-3").toggleClass("show");
+      $(".para-4").toggleClass("show");
     });
     $("#item-3").click(function(){
       $(".item-3 .item-inner").toggleClass("item-container-hover");
@@ -132,6 +143,8 @@
       $(".item-6").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-5").toggleClass("show");
+      $(".para-6").toggleClass("show");
     });
     $("#item-4").click(function(){
       $(".item-4 .item-inner").toggleClass("item-container-hover");
@@ -145,6 +158,8 @@
       $(".item-6").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-7").toggleClass("show");
+      $(".para-8").toggleClass("show");
     });
     $("#item-5").click(function(){
       $(".item-5 .item-inner").toggleClass("item-container-hover");
@@ -158,6 +173,8 @@
       $(".item-6").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-9").toggleClass("show");
+      $(".para-10").toggleClass("show");
     });
     $("#item-6").click(function(){
       $(".item-6 .item-inner").toggleClass("item-container-hover");
@@ -171,6 +188,8 @@
       $(".item-2").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-11").toggleClass("show");
+      $(".para-12").toggleClass("show");
     });
     $("#item-7").click(function(){
       $(".item-7 .item-inner").toggleClass("item-container-hover");
@@ -184,6 +203,8 @@
       $(".item-2").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
       $(".item-8").toggleClass("opacity-low");
+      $(".para-13").toggleClass("show");
+      $(".para-14").toggleClass("show");
     });
     $("#item-8").click(function(){
       $(".item-8 .item-inner").toggleClass("item-container-hover");
@@ -197,6 +218,8 @@
       $(".item-2").toggleClass("opacity-low");
       $(".item-7").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
+      $(".para-15").toggleClass("show");
+      $(".para-16").toggleClass("show");
     });
   });
 
