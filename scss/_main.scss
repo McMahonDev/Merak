@@ -86,7 +86,7 @@ body{
         
         .after{
             &:after{
-                content: 'Click here to hide' !important;
+                content: 'Close' !important;
                 font-family: 'description';
                 text-decoration: underline;
                 font-size: 1.2rem !important;
@@ -102,17 +102,17 @@ body{
         .item-inner{
             position: relative;
             
-            &:after{
-                content: 'Click for more!';
-                font-family: 'description';
-                text-decoration: underline;
-                font-size: .8rem;
-                line-height: 0%;
-                cursor: pointer;
+            // &:after{
+            //     content: 'Click for more!';
+            //     font-family: 'description';
+            //     text-decoration: underline;
+            //     font-size: .8rem;
+            //     line-height: 0%;
+            //     cursor: pointer;
                 
                 
 
-            }
+            // }
             $ripple-color: #aaaaaa;
 
             // @keyframes ripple {
@@ -141,7 +141,8 @@ body{
             grid-column: 1;
             grid-row: 1;
             text-align: right;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
             
             
         }
@@ -149,7 +150,8 @@ body{
             grid-column: 1;
             grid-row: 2;
             text-align: right;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
             
             
         }
@@ -157,7 +159,8 @@ body{
             grid-column: 1;
             grid-row: 3;
             text-align: right;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
             
             
         }
@@ -165,33 +168,40 @@ body{
             grid-column: 1;
             grid-row: 4;
             text-align: right;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
         }
         .item-5{
             grid-column: 2;
             grid-row: 1;
-            background: rgba(255,255,255, .5);
-            
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
+
         }
         .item-6{
             grid-column: 2;
             grid-row: 2;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
             
         }
         .item-7{
             grid-column: 2;
             grid-row: 3;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
         }
         .item-8{
             grid-column: 2;
             grid-row: 4;
-            background: rgba(255,255,255, .5);
+            // background: rgba(255,255,255,0.8);
+            // padding: 10px;
         }
         div{
             h3{
                 font-family: 'food';
+                cursor: pointer;
+                text-decoration: underline;
             }
             p{
                 font-family: 'description';
@@ -215,73 +225,92 @@ body{
         background-size: 100%;
         
         @media screen and (min-height: 500px) and (min-width: 500px){
-            background-position: 0% 0%;
+            background-image: none;
         }
         @media screen and (min-height: 500px) and (min-width: 900px){
-            background-position: 0% 50%;
+            background-position: 0% 35%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 500px) and (min-width: 1200px){
             background-position: 0% 60%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 500px) and (min-width: 1500px){
             background-position: 0% 70%;
+            background-image: url("../img/background3.png");
         }
 
 
         @media screen and (min-height: 812px) and (min-width: 500px){
-            background-position: 0% 100%;
+            background-position: 0% 35%;
+            background-image: none;
         }
         @media screen and (min-height: 812px) and (min-width: 900px){
             background-position: 0% 40%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 812px) and (min-width: 1200px){
             background-position: 0% 55%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 812px) and (min-width: 1500px){
             background-position: 0% 57%;
+            background-image: url("../img/background3.png");
         }
 
 
         @media screen and (min-height: 1000px) and (min-width: 500px){
-            background-position: 0% 100%;
+            background-position: 0% -130%;
+            background-image: none;
         }
         @media screen and (min-height: 1000px) and (min-width: 900px){
             background-position: 0% 65%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 1000px) and (min-width: 1200px){
             background-position: 0% 65%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 1000px) and (min-width: 1500px){
             background-position: 0% 65%;
+            background-image: url("../img/background3.png");
         }
 
 
         @media screen and (min-height: 1200px) and (min-width: 500px){
             background-position: 0% 100%;
+            background-image:none;
         }
         @media screen and (min-height: 1200px) and (min-width: 900px){
             background-position: 0% 100%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 1200px) and (min-width: 1200px){
             background-position: 0% 85%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 1200px) and (min-width: 1500px){
             background-position: 0% 75%;
+            background-image: url("../img/background3.png");
         }
 
 
         @media screen and (min-height: 1500px) and (min-width: 500px){
             background-position: 0% 100%;
+            background-image:none;
         }
         @media screen and (min-height: 1500px) and (min-width: 900px){
             background-position: 0% 100%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 1500px) and (min-width: 1200px){
             background-position: 0% 100%;
+            background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 1500px) and (min-width: 1500px){
             background-position: 0% 60%;
+            background-image: url("../img/background3.png");
         }
         
     }
-}
+} 
