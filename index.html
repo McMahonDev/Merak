@@ -24,7 +24,7 @@
       <div  id="item-1" class="item-1">
         <div class="item-inner">
           <img class="show" src="img/test.jpg">
-          <h3>Ginger Spritz</h3>
+          <h3>Gougere</h3>
           <p>Ginger.Lime.Soda</p>
           
         </div>
@@ -32,21 +32,21 @@
       <div id="item-2" class="item-2">
         <div class="item-inner">
           <img class="show" src="img/test.jpg">
-          <h3>Scup</h3>
+          <h3>Crudo</h3>
           <p>Orange.Tarragon.Tuile</p>
         </div>
       </div>
       <div id="item-3" class="item-3">
         <div class="item-inner">
           <img class="show" src="img/test.jpg">
-          <h3>Paella</h3>
+          <h3>Bread Trio</h3>
           <p>Quail.Scallop.Rice</p>
         </div>
       </div>
         <div id="item-4" class="item-4">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
-            <h3>Vichysois</h3>
+            <h3>Pasta</h3>
             <p>Pastry.Leek.Onion</p>
           </div>
         </div>
@@ -60,8 +60,22 @@
         <div id="item-6" class="item-6">
           <div class="item-inner">
             <img class="show" src="img/test.jpg">
-            <h3>Short Ribs</h3>
+            <h3>Paella</h3>
             <p>Carrot.Turnip.Aparagus</p>
+          </div>
+        </div>
+        <div id="item-7" class="item-7">
+          <div class="item-inner">
+            <img class="show" src="img/test.jpg">
+            <h3>Cobbler</h3>
+            <p>Carrot.Turnip.Aparagus</p>
+          </div>
+        </div>
+        <div id="item-8" class="item-8">
+          <div class="item-inner">
+            <img class="show" src="img/test.jpg">
+            <h3>Meet the chefs</h3>
+            <p>Name.Name.Name</p>
           </div>
         </div>
     </main>
@@ -69,7 +83,7 @@
     <footer>
         
     </footer>
-
+    
 
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
@@ -90,7 +104,8 @@
       $(".item-4").toggleClass("opacity-low");
       $(".item-5").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
-
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
     });
     $("#item-2").click(function(){
       $(".item-2 .item-inner").toggleClass("item-container-hover");
@@ -102,6 +117,8 @@
       $(".item-4").toggleClass("opacity-low");
       $(".item-5").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
     });
     $("#item-3").click(function(){
       $(".item-3 .item-inner").toggleClass("item-container-hover");
@@ -113,6 +130,8 @@
       $(".item-4").toggleClass("opacity-low");
       $(".item-5").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
     });
     $("#item-4").click(function(){
       $(".item-4 .item-inner").toggleClass("item-container-hover");
@@ -124,6 +143,8 @@
       $(".item-2").toggleClass("opacity-low");
       $(".item-5").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
     });
     $("#item-5").click(function(){
       $(".item-5 .item-inner").toggleClass("item-container-hover");
@@ -135,6 +156,8 @@
       $(".item-4").toggleClass("opacity-low");
       $(".item-2").toggleClass("opacity-low");
       $(".item-6").toggleClass("opacity-low");
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
     });
     $("#item-6").click(function(){
       $(".item-6 .item-inner").toggleClass("item-container-hover");
@@ -146,6 +169,34 @@
       $(".item-4").toggleClass("opacity-low");
       $(".item-5").toggleClass("opacity-low");
       $(".item-2").toggleClass("opacity-low");
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
+    });
+    $("#item-7").click(function(){
+      $(".item-7 .item-inner").toggleClass("item-container-hover");
+      $(".item-7").toggleClass("relative");
+      $(".item-7 .item-inner img").toggleClass("show");
+      $(".item-7 .item-inner").toggleClass("after");
+      $(".item-1").toggleClass("opacity-low");
+      $(".item-3").toggleClass("opacity-low");
+      $(".item-4").toggleClass("opacity-low");
+      $(".item-5").toggleClass("opacity-low");
+      $(".item-2").toggleClass("opacity-low");
+      $(".item-6").toggleClass("opacity-low");
+      $(".item-8").toggleClass("opacity-low");
+    });
+    $("#item-8").click(function(){
+      $(".item-8 .item-inner").toggleClass("item-container-hover");
+      $(".item-8").toggleClass("relative");
+      $(".item-8 .item-inner img").toggleClass("show");
+      $(".item-8 .item-inner").toggleClass("after");
+      $(".item-1").toggleClass("opacity-low");
+      $(".item-3").toggleClass("opacity-low");
+      $(".item-4").toggleClass("opacity-low");
+      $(".item-5").toggleClass("opacity-low");
+      $(".item-2").toggleClass("opacity-low");
+      $(".item-7").toggleClass("opacity-low");
+      $(".item-6").toggleClass("opacity-low");
     });
   });
 
