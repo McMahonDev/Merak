@@ -91,6 +91,7 @@ body{
                 text-decoration: underline;
                 font-size: 1.2rem !important;
                 padding-top: 10px;
+                cursor: pointer;
                 @media screen and (max-width: 400px){
                     font-size: .8rem !important;
                     
@@ -218,9 +219,9 @@ body{
         height: 100vh;
         left: 0;
         bottom: 0;
-        background-image: url("../img/background3.png");
+        
         background-attachment: fixed;
-        background-position: 0% 260%;
+       
         background-repeat: no-repeat;
         background-size: 100%;
         
@@ -232,11 +233,11 @@ body{
             background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 500px) and (min-width: 1200px){
-            background-position: 0% 60%;
+            background-position: 0% 50%;
             background-image: url("../img/background3.png");
         }
         @media screen and (min-height: 500px) and (min-width: 1500px){
-            background-position: 0% 70%;
+            background-position: 0% 60%;
             background-image: url("../img/background3.png");
         }
 
