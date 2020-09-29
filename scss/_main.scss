@@ -28,13 +28,15 @@
 }
 .relative{
     position: fixed;
+    grid-row: unset !important;
+    grid-column: unset !important;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
     height: 50%;
     background-color: rgba($color: #fff, $alpha: .75);
-    position: relative;
+    
     z-index: 1;
     box-shadow: 0px 0px 50px black;
 }
