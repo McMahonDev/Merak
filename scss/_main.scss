@@ -98,6 +98,7 @@ body{
             grid-row-gap: 10px;
             background: rgba(255,255,255,0.8);
             padding: 10px;
+            grid-template-columns: 1fr;
         }
         h1{
             grid-column: 1/-1;
@@ -168,8 +169,11 @@ body{
             grid-column: 1;
             grid-row: 1;
             text-align: right;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
             
             
         }
@@ -177,8 +181,11 @@ body{
             grid-column: 1;
             grid-row: 2;
             text-align: right;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
             
             
         }
@@ -186,8 +193,11 @@ body{
             grid-column: 1;
             grid-row: 3;
             text-align: right;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
             
             
         }
@@ -195,32 +205,52 @@ body{
             grid-column: 1;
             grid-row: 4;
             text-align: right;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
         }
         .item-5{
             grid-column: 2;
             grid-row: 1;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
 
         }
         .item-6{
             grid-column: 2;
             grid-row: 2;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
             
         }
         .item-7{
             grid-column: 2;
             grid-row: 3;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
         }
         .item-8{
             grid-column: 2;
             grid-row: 4;
+
+            @media screen and (max-width: 400px){
+                grid-column: unset;
+                grid-row: unset;
+                text-align: center;
+            }
+
+
             .item-inner{
                 @media screen and (max-width:1500px){
                     overflow-y: scroll;
