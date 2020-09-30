@@ -77,14 +77,42 @@
             <p class="para-14 show">Mixed Berry reduction with vanilla bean panacotta, shortbread, Meyer lemon, and mint </p>
           </div>
         </div>
-        <!-- <div id="item-8" class="item-8">
+        <div id="item-8" class="item-8">
           <div class="item-inner">
-            <img class="show" src="img/test.jpg">
-            <h3>Meet the chefs</h3>
-            <p class="para-15">Name.Name.Name</p>
-            <p class="para-16 show">Placeholder</p>
+            <div class="chef-container show">
+              <div>
+                <img src="img/daniella.jpg">
+                <p>Hey! I’m Daniella Aronsen, Merak’s Chef de Cuisine, and I am stoked to have our visions come to life! I’m from Brooklyn, New York where growing up, food played a large role in family gatherings and helped me learn about my peers and friends. I love food for the stories it can tell and the memories it can make. Simple yet elegant food served by a friendly, welcoming staff is my favorite way to treat myself and our team is here to treat you to a remarkable experience. </p>
+              </div>
+              <div>
+                <img src="img/kam.jpg">
+                <p>Hi! I'm Kamryn Kohler, Sous Chef of Merak! I have been cooking since the age of three, using food as a creative outlet and a way to express how I feel. Food for me is a way of showing family and friends how much you care! I hope our guests feel that through our food, thank you for your support! </p>
+              </div>
+              <div>
+                <img src="img/anny.jpg">
+                <p>Hello, My name is leiryhanny Sanchez. I’m pursuing a
+                  bachelor's degree in culinary, at Johnson and Wales
+                  University. I have been working at Panera for three year as
+                  the shift supervisor. I'm looking forward to using my
+                  knowledge I have gained during working at Panera and my
+                  studies at the university to be able to open a restaurant in
+                  the near future. I would also love to one day be a personal
+                  chef.</p>
+              </div>
+              <div>
+                <img src="img/cam.jpg">
+                <p>Hi, I am Cameron Carlen, the Chef Du Cuisine at Merak.  I found a deep love for food and cooking at an early age as I sat in the kitchen watching my mom cook dinner.  By age 12, I was working in a professional kitchen as a dishwasher watching the chefs cook on the line.  At that moment, I knew that the kitchen was for me and for nearly a decade, I have learned from dozens of excellent chefs.  I hope that you can taste the care and passion that has went into every dish you enjoy.  I am extremely grateful for your support of our dreams</p>
+              </div>
+              
+            </div>
+            <h3>Meet the Chefs</h3>
+            <p class="para-15">Daniella.Kamryn.Leiryhanny.Cameron</p>
+            <i class="fas fa-times fa-3x show"></i>
+
+
+            
           </div>
-        </div> -->
+        </div>
     </main>
 
     <footer>
@@ -208,8 +236,8 @@
     });
     $("#item-8").click(function(){
       $(".item-8 .item-inner").toggleClass("item-container-hover");
-      $(".item-8").toggleClass("relative");
-      $(".item-8 .item-inner img").toggleClass("show");
+      $(".item-8").toggleClass("relative relative2");
+      
       $(".item-8 .item-inner").toggleClass("after");
       $(".item-1").toggleClass("opacity-low");
       $(".item-3").toggleClass("opacity-low");
@@ -220,6 +248,9 @@
       $(".item-6").toggleClass("opacity-low");
       $(".para-15").toggleClass("show");
       $(".para-16").toggleClass("show");
+      $(".chef-container").toggleClass("show");
+      $(".fa-times").toggleClass("show");
+      
     });
   });
 

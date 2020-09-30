@@ -1,6 +1,11 @@
 .opacity-low{
     opacity: .1;
 }
+.fa-3x{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 .item-container-hover{
     position: absolute !important;
     left: 50%;
@@ -17,10 +22,15 @@
             font-size: 2rem;
         }
     }
-    .para-2, .para-4, .para-6, .para-8, .para-10, .para-12, .para-14, .para-16{
+    .para-2, .para-4, .para-6, .para-8, .para-10, .para-12, .para-14, .chef-container{
         font-size: 1.2rem;
         text-align: left;
         line-height: 1.2;
+        p{
+            font-size: 1.2rem;
+            text-align: left;
+            line-height: 1.2;
+        }
     }
     p{
         font-size: 2rem;
@@ -49,8 +59,13 @@
         height: 62%;
     }
 }
+
+.relative2{
+    width: 95% !important;
+    height: 95% !important;
+}
 .show{
-    display: none;
+    display: none !important;
 }
 
 body{
@@ -206,8 +221,54 @@ body{
         .item-8{
             grid-column: 2;
             grid-row: 4;
-            // background: rgba(255,255,255,0.8);
-            // padding: 10px;
+            .item-inner{
+                @media screen and (max-width:1500px){
+                    overflow-y: scroll;
+                }
+            }
+            .chef-container{
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: auto;
+                background-color: rgba(255,255,255,0.8);
+                grid-gap: 10px;
+                @media screen and (max-width: 1200px){
+                    grid-template-columns: 1fr 1fr;
+                }
+                @media screen and (max-width: 600px){
+                    grid-template-columns: 1fr;
+                }
+            }
+            .item-container-hover{
+                width: 80%;
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: 1fr;
+                height: 80%;
+                .chef-container{
+                    grid-row: 2;
+                    
+                    div{
+                        height: auto;
+                        img{
+                            margin-bottom: 10px;
+                            height: 300px;
+                        }
+                    }
+
+                    
+
+                }
+                h3{
+                    grid-row: 1;
+
+                }
+                &:after{
+                    content: unset !important;
+                }
+            }
+            
         }
         div{
             h3{
