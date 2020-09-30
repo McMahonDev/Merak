@@ -81,6 +81,8 @@ body{
         @media screen and (max-width: 400px){
             grid-column-gap: 25px;
             grid-row-gap: 10px;
+            background: rgba(255,255,255,0.8);
+            padding: 10px;
         }
         h1{
             grid-column: 1/-1;
